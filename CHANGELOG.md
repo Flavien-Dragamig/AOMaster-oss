@@ -20,10 +20,10 @@ Première publication open-source d'AOMaster.
   `docs/screenshots/`, intégrées au README.
 
 ### Modifié par rapport à la version privée
-- Identifiants admin en dur (`admin@lemans-creapolis.com`) retirés de
+- Identifiants administrateur en dur retirés de
   `supabase/functions/create-admin/index.ts` ; lecture désormais via
   `ADMIN_EMAIL` / `ADMIN_PASSWORD` (Edge Function secrets).
-- URL de production `aomaster.dragamig.fr` retirée des allowlists CORS des
-  Edge Functions ; un dev externe doit fournir son propre `SITE_URL`.
+- URL de production retirée des allowlists CORS des Edge Functions ;
+  un dev externe doit fournir son propre `SITE_URL`.
 - Documents internes (rapports d'audit, TODO, configuration infra) non
   publiés.
