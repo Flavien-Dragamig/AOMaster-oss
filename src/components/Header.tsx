@@ -97,7 +97,7 @@ const Header: React.FC = () => {
               className="hidden sm:inline-flex items-center ml-3 px-2 py-1 text-xs font-medium text-gray-500 hover:text-peach-600 border-l border-gray-200 pl-3"
               aria-label="Retour au site Studio Dragamig"
             >
-              by Studio Dragamig
+              par Studio Dragamig
             </a>
             
             <nav className="hidden md:ml-8 md:flex md:space-x-6">
