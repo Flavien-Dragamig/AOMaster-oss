@@ -123,9 +123,21 @@ function AppContent() {
 
       {!isAdminRoute && (
         <footer className="bg-white border-t border-gray-200">
-          <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 space-y-2">
             <p className="text-center text-sm text-gray-500">
               &copy; {new Date().getFullYear()} AOMaster. Tous droits réservés.
+            </p>
+            <p className="text-center text-sm text-gray-600">
+              Créé par{' '}
+              <a
+                href="https://dragamig.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-peach-600 hover:text-peach-700 underline-offset-2 hover:underline"
+              >
+                Studio Dragamig
+              </a>{' '}
+              avec l&apos;aide de Claude d&apos;Anthropic.
             </p>
             <div className="flex justify-center">
               <ApiStatusIndicator />
