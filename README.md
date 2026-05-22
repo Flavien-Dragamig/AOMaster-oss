@@ -120,12 +120,15 @@ Détails complets dans [`.env.example`](./.env.example).
 
 Voir [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-## Conçu avec l'aide d'une IA
+## À propos
+
+> **Créé par [Studio Dragamig](https://dragamig.fr) avec l'aide de Claude
+> d'Anthropic.**
 
 Une partie significative du code, de la documentation et de l'extraction
-open-source de ce projet a été produite **avec l'assistance d'un agent
-LLM** (Claude, Anthropic) sous supervision humaine. Les choix d'architecture,
-les revues et la validation finale restent de la responsabilité de
+open-source de ce projet a été produite avec l'assistance d'un agent LLM
+(Claude, Anthropic) sous supervision humaine. Les choix d'architecture, les
+revues et la validation finale restent de la responsabilité de
 [Dragamig SAS](https://dragamig.fr).
 
 ## Licence

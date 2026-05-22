@@ -90,6 +90,15 @@ const Header: React.FC = () => {
             <Link to="/" className="flex-shrink-0 flex items-center">
               <span className="text-peach-600 font-bold text-xl">AOMaster</span>
             </Link>
+            <a
+              href="https://dragamig.fr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden sm:inline-flex items-center ml-3 px-2 py-1 text-xs font-medium text-gray-500 hover:text-peach-600 border-l border-gray-200 pl-3"
+              aria-label="Retour au site Studio Dragamig"
+            >
+              by Studio Dragamig
+            </a>
             
             <nav className="hidden md:ml-8 md:flex md:space-x-6">
               <Link to="/" className={getLinkClass('/')}>
