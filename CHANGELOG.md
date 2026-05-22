@@ -1,0 +1,25 @@
+# Changelog
+
+Toutes les évolutions notables de ce projet sont consignées ici.
+Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
+versionnage [SemVer](https://semver.org/lang/fr/).
+
+## [0.1.0] — 2026-05-22
+
+Première publication open-source d'AOMaster.
+
+### Ajouté
+- Code source applicatif complet (React 18 + Vite + TypeScript).
+- Migrations Supabase (`supabase/migrations/`) et Edge Functions
+  (`supabase/functions/`) pour la stack backend.
+- `.env.example` documenté pour onboarding d'un développeur externe.
+- Licence MIT (copyright Dragamig SAS).
+
+### Modifié par rapport à la version privée
+- Identifiants admin en dur (`admin@lemans-creapolis.com`) retirés de
+  `supabase/functions/create-admin/index.ts` ; lecture désormais via
+  `ADMIN_EMAIL` / `ADMIN_PASSWORD` (Edge Function secrets).
+- URL de production `aomaster.dragamig.fr` retirée des allowlists CORS des
+  Edge Functions ; un dev externe doit fournir son propre `SITE_URL`.
+- Documents internes (rapports d'audit, TODO, configuration infra) non
+  publiés.
