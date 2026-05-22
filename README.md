@@ -120,6 +120,14 @@ Détails complets dans [`.env.example`](./.env.example).
 
 Voir [CONTRIBUTING.md](./CONTRIBUTING.md).
 
+## Conçu avec l'aide d'une IA
+
+Une partie significative du code, de la documentation et de l'extraction
+open-source de ce projet a été produite **avec l'assistance d'un agent
+LLM** (Claude, Anthropic) sous supervision humaine. Les choix d'architecture,
+les revues et la validation finale restent de la responsabilité de
+[Dragamig SAS](https://dragamig.fr).
+
 ## Licence
 
 [MIT](./LICENSE) — Copyright (c) 2026 Dragamig SAS.
