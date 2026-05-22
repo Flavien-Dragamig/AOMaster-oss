@@ -15,6 +15,10 @@ Première publication open-source d'AOMaster.
 - `.env.example` documenté pour onboarding d'un développeur externe.
 - Licence MIT (copyright Dragamig SAS).
 
+### Documentation
+- Captures d'écran (accueil, recherche, connexion, inscription) dans
+  `docs/screenshots/`, intégrées au README.
+
 ### Modifié par rapport à la version privée
 - Identifiants admin en dur (`admin@lemans-creapolis.com`) retirés de
   `supabase/functions/create-admin/index.ts` ; lecture désormais via

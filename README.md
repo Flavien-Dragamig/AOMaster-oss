@@ -11,6 +11,16 @@ pour les PME et indépendants qui répondent à des appels d'offres.
 > Dragamig SAS. Elle est livrée sans données ni branding propriétaires —
 > à vous de la connecter à votre propre projet Supabase.
 
+## Aperçu
+
+| Accueil | Recherche |
+|---|---|
+| ![Page d'accueil](./docs/screenshots/01-home.png) | ![Page de recherche](./docs/screenshots/04-search.png) |
+
+| Connexion | Inscription |
+|---|---|
+| ![Page de connexion](./docs/screenshots/02-login.png) | ![Page d'inscription](./docs/screenshots/03-signup.png) |
+
 ## Fonctionnalités
 
 - Recherche multi-critères dans les avis BOAMP et TED.
