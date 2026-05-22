@@ -30,7 +30,7 @@ pour les PME et indépendants qui répondent à des appels d'offres.
 
 ## Stack technique
 
-- **Frontend** : React 18, Vite 5, TypeScript 5, TailwindCSS, TanStack Query, React Router 6
+- **Frontend** : React 18, Vite 8, TypeScript 5, TailwindCSS, TanStack Query, React Router 6
 - **Backend** : Supabase (Postgres + Auth + Edge Functions Deno)
 - **Validation** : Zod, DOMPurify
 - **Tests** : Vitest, Testing Library, jsdom
